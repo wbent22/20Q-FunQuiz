@@ -8,3 +8,14 @@ C:\Users\Administrator\source\repos\StudentChoiceProject\StudentChoiceProject\ob
 C:\Users\Administrator\source\repos\StudentChoiceProject\StudentChoiceProject\obj\Debug\StudentChoiceProject.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\StudentChoiceProject\StudentChoiceProject\obj\Debug\StudentChoiceProject.exe
 C:\Users\Administrator\source\repos\StudentChoiceProject\StudentChoiceProject\obj\Debug\StudentChoiceProject.pdb
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.Form1.resources
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.Properties.Resources.resources
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.exe
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.pdb
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\StudentChoiceProject.exe.config
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\StudentChoiceProject.exe
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\StudentChoiceProject.pdb
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.Leaderboard.resources

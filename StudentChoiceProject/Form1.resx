@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtAnswers.Text" xml:space="preserve">
+    <value>1: Milky Way                          11: War of 1812
+2: Bloat                                  12: Russia
+3: Holy Water                        13: 70 Meters
+4: 24                                      14: Yellow
+5: Pinocchio                          15:Tight Rope
+6: 7                                        16: Dogs
+7: Red, White, Blue               17: 1955
+8: 2007                                  18: 1.3 Million
+9: Asuncion                           19: Japan
+10: Ostrich                             20: Charon</value>
+  </data>
 </root>

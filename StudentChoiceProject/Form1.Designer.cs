@@ -29,6 +29,7 @@ namespace StudentChoiceProject
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.QuizTabs = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -67,107 +68,118 @@ namespace StudentChoiceProject
             this.radioButton20 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label27 = new System.Windows.Forms.Label();
             this.rbQ6answer = new System.Windows.Forms.RadioButton();
             this.radioButton22 = new System.Windows.Forms.RadioButton();
             this.radioButton23 = new System.Windows.Forms.RadioButton();
             this.radioButton24 = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label28 = new System.Windows.Forms.Label();
             this.radioButton25 = new System.Windows.Forms.RadioButton();
             this.radioButton26 = new System.Windows.Forms.RadioButton();
             this.radioButton27 = new System.Windows.Forms.RadioButton();
             this.rbQ7answer = new System.Windows.Forms.RadioButton();
             this.label8 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.label29 = new System.Windows.Forms.Label();
             this.rbQ8answer = new System.Windows.Forms.RadioButton();
             this.radioButton30 = new System.Windows.Forms.RadioButton();
             this.radioButton31 = new System.Windows.Forms.RadioButton();
             this.radioButton32 = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.label30 = new System.Windows.Forms.Label();
             this.radioButton33 = new System.Windows.Forms.RadioButton();
             this.radioButton34 = new System.Windows.Forms.RadioButton();
             this.rbQ9answer = new System.Windows.Forms.RadioButton();
             this.radioButton36 = new System.Windows.Forms.RadioButton();
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.label31 = new System.Windows.Forms.Label();
             this.radioButton37 = new System.Windows.Forms.RadioButton();
             this.radioButton38 = new System.Windows.Forms.RadioButton();
             this.radioButton39 = new System.Windows.Forms.RadioButton();
             this.rbQ10answer = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
             this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.label32 = new System.Windows.Forms.Label();
             this.rbQ11answer = new System.Windows.Forms.RadioButton();
             this.radioButton42 = new System.Windows.Forms.RadioButton();
             this.radioButton43 = new System.Windows.Forms.RadioButton();
             this.radioButton44 = new System.Windows.Forms.RadioButton();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.label33 = new System.Windows.Forms.Label();
             this.radioButton45 = new System.Windows.Forms.RadioButton();
             this.radioButton46 = new System.Windows.Forms.RadioButton();
             this.rbQ12answer = new System.Windows.Forms.RadioButton();
             this.radioButton48 = new System.Windows.Forms.RadioButton();
             this.label13 = new System.Windows.Forms.Label();
             this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.label34 = new System.Windows.Forms.Label();
             this.radioButton49 = new System.Windows.Forms.RadioButton();
             this.rbQ13answer = new System.Windows.Forms.RadioButton();
             this.radioButton51 = new System.Windows.Forms.RadioButton();
             this.radioButton52 = new System.Windows.Forms.RadioButton();
             this.label14 = new System.Windows.Forms.Label();
             this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.label35 = new System.Windows.Forms.Label();
             this.rb53 = new System.Windows.Forms.RadioButton();
             this.rbQ14answer = new System.Windows.Forms.RadioButton();
             this.radioButton55 = new System.Windows.Forms.RadioButton();
             this.radioButton56 = new System.Windows.Forms.RadioButton();
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.label36 = new System.Windows.Forms.Label();
             this.radioButton57 = new System.Windows.Forms.RadioButton();
             this.radioButton58 = new System.Windows.Forms.RadioButton();
             this.radioButton59 = new System.Windows.Forms.RadioButton();
             this.rbQ15answer = new System.Windows.Forms.RadioButton();
             this.label16 = new System.Windows.Forms.Label();
             this.tabPage16 = new System.Windows.Forms.TabPage();
+            this.label37 = new System.Windows.Forms.Label();
             this.rbQ16answer = new System.Windows.Forms.RadioButton();
             this.radioButton62 = new System.Windows.Forms.RadioButton();
             this.radioButton63 = new System.Windows.Forms.RadioButton();
             this.radioButton64 = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
             this.tabPage17 = new System.Windows.Forms.TabPage();
+            this.label38 = new System.Windows.Forms.Label();
             this.rbQ17answer = new System.Windows.Forms.RadioButton();
             this.radioButton66 = new System.Windows.Forms.RadioButton();
             this.radioButton67 = new System.Windows.Forms.RadioButton();
             this.radioButton68 = new System.Windows.Forms.RadioButton();
             this.label18 = new System.Windows.Forms.Label();
             this.tabPage18 = new System.Windows.Forms.TabPage();
+            this.label39 = new System.Windows.Forms.Label();
             this.radioButton69 = new System.Windows.Forms.RadioButton();
-            this.radioButton70 = new System.Windows.Forms.RadioButton();
+            this.rbQ18answer = new System.Windows.Forms.RadioButton();
             this.radioButton71 = new System.Windows.Forms.RadioButton();
             this.radioButton72 = new System.Windows.Forms.RadioButton();
             this.label19 = new System.Windows.Forms.Label();
             this.tabPage19 = new System.Windows.Forms.TabPage();
+            this.label40 = new System.Windows.Forms.Label();
             this.radioButton73 = new System.Windows.Forms.RadioButton();
             this.radioButton74 = new System.Windows.Forms.RadioButton();
-            this.radioButton75 = new System.Windows.Forms.RadioButton();
+            this.rbQ19answer = new System.Windows.Forms.RadioButton();
             this.radioButton76 = new System.Windows.Forms.RadioButton();
             this.label20 = new System.Windows.Forms.Label();
             this.tabPage20 = new System.Windows.Forms.TabPage();
+            this.label41 = new System.Windows.Forms.Label();
             this.radioButton77 = new System.Windows.Forms.RadioButton();
             this.radioButton78 = new System.Windows.Forms.RadioButton();
-            this.radioButton79 = new System.Windows.Forms.RadioButton();
-            this.radioButton80 = new System.Windows.Forms.RadioButton();
+            this.Nix = new System.Windows.Forms.RadioButton();
+            this.rbQ20answer = new System.Windows.Forms.RadioButton();
             this.label21 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.txtScore = new System.Windows.Forms.TextBox();
+            this.txtAnswers = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.btnEname = new System.Windows.Forms.Button();
+            this.lblAnswers = new System.Windows.Forms.Label();
             this.QuizTabs.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -223,7 +235,7 @@ namespace StudentChoiceProject
             this.QuizTabs.Controls.Add(this.tabPage18);
             this.QuizTabs.Controls.Add(this.tabPage19);
             this.QuizTabs.Controls.Add(this.tabPage20);
-            this.QuizTabs.Location = new System.Drawing.Point(2, 125);
+            this.QuizTabs.Location = new System.Drawing.Point(2, 97);
             this.QuizTabs.Name = "QuizTabs";
             this.QuizTabs.SelectedIndex = 0;
             this.QuizTabs.Size = new System.Drawing.Size(565, 406);
@@ -665,6 +677,16 @@ namespace StudentChoiceProject
             this.tabPage6.Text = "6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(11, 71);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(540, 31);
+            this.label27.TabIndex = 9;
+            this.label27.Text = "How many neck bones does a giraffe have?";
+            // 
             // rbQ6answer
             // 
             this.rbQ6answer.AutoSize = true;
@@ -737,6 +759,16 @@ namespace StudentChoiceProject
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "7";
             this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(31, 73);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(488, 31);
+            this.label28.TabIndex = 9;
+            this.label28.Text = "What colors are on the Norwegian flag?";
             // 
             // radioButton25
             // 
@@ -811,6 +843,18 @@ namespace StudentChoiceProject
             this.tabPage8.Text = "8";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(101, 60);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(399, 62);
+            this.label29.TabIndex = 9;
+            this.label29.Text = "When was the first model of the \r\niPhone released?";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label29.Click += new System.EventHandler(this.label29_Click);
+            // 
             // rbQ8answer
             // 
             this.rbQ8answer.AutoSize = true;
@@ -883,6 +927,16 @@ namespace StudentChoiceProject
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "9";
             this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(53, 88);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(452, 31);
+            this.label30.TabIndex = 9;
+            this.label30.Text = "What is the capital city of Paraguay?";
             // 
             // radioButton33
             // 
@@ -957,6 +1011,16 @@ namespace StudentChoiceProject
             this.tabPage10.Text = "10";
             this.tabPage10.UseVisualStyleBackColor = true;
             // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(23, 73);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(515, 31);
+            this.label31.TabIndex = 9;
+            this.label31.Text = "What Land Animal Has the Largest Eyes?";
+            // 
             // radioButton37
             // 
             this.radioButton37.AutoSize = true;
@@ -1029,6 +1093,16 @@ namespace StudentChoiceProject
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "11";
             this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(38, 79);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(495, 31);
+            this.label32.TabIndex = 9;
+            this.label32.Text = "The Treaty of Ghent Ended Which War?";
             // 
             // rbQ11answer
             // 
@@ -1103,6 +1177,17 @@ namespace StudentChoiceProject
             this.tabPage12.Text = "12";
             this.tabPage12.UseVisualStyleBackColor = true;
             // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(20, 55);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(531, 62);
+            this.label33.TabIndex = 9;
+            this.label33.Text = "In 1917, Finland declared its independence\r\nfrom which country?";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // radioButton45
             // 
             this.radioButton45.AutoSize = true;
@@ -1175,6 +1260,17 @@ namespace StudentChoiceProject
             this.tabPage13.TabIndex = 12;
             this.tabPage13.Text = "13";
             this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(28, 56);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(501, 62);
+            this.label34.TabIndex = 9;
+            this.label34.Text = "In Olympic archery, what is the distance \r\nbetween the target from the archer?";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // radioButton49
             // 
@@ -1249,6 +1345,17 @@ namespace StudentChoiceProject
             this.tabPage14.Text = "14";
             this.tabPage14.UseVisualStyleBackColor = true;
             // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(90, 63);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(396, 62);
+            this.label35.TabIndex = 9;
+            this.label35.Text = "In the game of pool, what is the \r\nstandard color for the 1 ball?";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // rb53
             // 
             this.rb53.AutoSize = true;
@@ -1321,6 +1428,16 @@ namespace StudentChoiceProject
             this.tabPage15.TabIndex = 14;
             this.tabPage15.Text = "15";
             this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(90, 77);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(425, 31);
+            this.label36.TabIndex = 9;
+            this.label36.Text = "What does a funambulist walk on?";
             // 
             // radioButton57
             // 
@@ -1395,6 +1512,16 @@ namespace StudentChoiceProject
             this.tabPage16.Text = "16";
             this.tabPage16.UseVisualStyleBackColor = true;
             // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(106, 56);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(394, 31);
+            this.label37.TabIndex = 9;
+            this.label37.Text = "What is cynophobia the fear of?";
+            // 
             // rbQ16answer
             // 
             this.rbQ16answer.AutoSize = true;
@@ -1468,6 +1595,16 @@ namespace StudentChoiceProject
             this.tabPage17.Text = "17";
             this.tabPage17.UseVisualStyleBackColor = true;
             // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(40, 74);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(486, 31);
+            this.label38.TabIndex = 9;
+            this.label38.Text = "In what year was McDonald\'s founded?";
+            // 
             // rbQ17answer
             // 
             this.rbQ17answer.AutoSize = true;
@@ -1528,8 +1665,9 @@ namespace StudentChoiceProject
             // 
             // tabPage18
             // 
+            this.tabPage18.Controls.Add(this.label39);
             this.tabPage18.Controls.Add(this.radioButton69);
-            this.tabPage18.Controls.Add(this.radioButton70);
+            this.tabPage18.Controls.Add(this.rbQ18answer);
             this.tabPage18.Controls.Add(this.radioButton71);
             this.tabPage18.Controls.Add(this.radioButton72);
             this.tabPage18.Controls.Add(this.label19);
@@ -1540,69 +1678,80 @@ namespace StudentChoiceProject
             this.tabPage18.Text = "18";
             this.tabPage18.UseVisualStyleBackColor = true;
             // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(3, 70);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(548, 31);
+            this.label39.TabIndex = 15;
+            this.label39.Text = "How Many Earths Could Fit Inside The Sun?";
+            // 
             // radioButton69
             // 
             this.radioButton69.AutoSize = true;
             this.radioButton69.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton69.Location = new System.Drawing.Point(204, 239);
+            this.radioButton69.Location = new System.Drawing.Point(228, 275);
             this.radioButton69.Name = "radioButton69";
-            this.radioButton69.Size = new System.Drawing.Size(149, 40);
-            this.radioButton69.TabIndex = 8;
+            this.radioButton69.Size = new System.Drawing.Size(123, 40);
+            this.radioButton69.TabIndex = 14;
             this.radioButton69.TabStop = true;
-            this.radioButton69.Text = "radioButton69";
+            this.radioButton69.Text = "3.8 Million";
             this.radioButton69.UseVisualStyleBackColor = true;
             // 
-            // radioButton70
+            // rbQ18answer
             // 
-            this.radioButton70.AutoSize = true;
-            this.radioButton70.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton70.Location = new System.Drawing.Point(204, 193);
-            this.radioButton70.Name = "radioButton70";
-            this.radioButton70.Size = new System.Drawing.Size(148, 40);
-            this.radioButton70.TabIndex = 7;
-            this.radioButton70.TabStop = true;
-            this.radioButton70.Text = "radioButton70";
-            this.radioButton70.UseVisualStyleBackColor = true;
+            this.rbQ18answer.AutoSize = true;
+            this.rbQ18answer.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbQ18answer.Location = new System.Drawing.Point(228, 229);
+            this.rbQ18answer.Name = "rbQ18answer";
+            this.rbQ18answer.Size = new System.Drawing.Size(120, 40);
+            this.rbQ18answer.TabIndex = 13;
+            this.rbQ18answer.TabStop = true;
+            this.rbQ18answer.Text = "1.3 Million";
+            this.rbQ18answer.UseVisualStyleBackColor = true;
             // 
             // radioButton71
             // 
             this.radioButton71.AutoSize = true;
             this.radioButton71.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton71.Location = new System.Drawing.Point(204, 147);
+            this.radioButton71.Location = new System.Drawing.Point(228, 183);
             this.radioButton71.Name = "radioButton71";
-            this.radioButton71.Size = new System.Drawing.Size(145, 40);
-            this.radioButton71.TabIndex = 6;
+            this.radioButton71.Size = new System.Drawing.Size(104, 40);
+            this.radioButton71.TabIndex = 12;
             this.radioButton71.TabStop = true;
-            this.radioButton71.Text = "radioButton71";
+            this.radioButton71.Text = "508, 064";
             this.radioButton71.UseVisualStyleBackColor = true;
             // 
             // radioButton72
             // 
             this.radioButton72.AutoSize = true;
             this.radioButton72.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton72.Location = new System.Drawing.Point(204, 101);
+            this.radioButton72.Location = new System.Drawing.Point(228, 137);
             this.radioButton72.Name = "radioButton72";
-            this.radioButton72.Size = new System.Drawing.Size(148, 40);
-            this.radioButton72.TabIndex = 5;
+            this.radioButton72.Size = new System.Drawing.Size(53, 40);
+            this.radioButton72.TabIndex = 11;
             this.radioButton72.TabStop = true;
-            this.radioButton72.Text = "radioButton72";
+            this.radioButton72.Text = "53";
             this.radioButton72.UseVisualStyleBackColor = true;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Century", 25F);
-            this.label19.Location = new System.Drawing.Point(183, 0);
+            this.label19.Location = new System.Drawing.Point(174, 10);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(206, 40);
-            this.label19.TabIndex = 1;
+            this.label19.TabIndex = 10;
             this.label19.Text = "Question 18";
             // 
             // tabPage19
             // 
+            this.tabPage19.Controls.Add(this.label40);
             this.tabPage19.Controls.Add(this.radioButton73);
             this.tabPage19.Controls.Add(this.radioButton74);
-            this.tabPage19.Controls.Add(this.radioButton75);
+            this.tabPage19.Controls.Add(this.rbQ19answer);
             this.tabPage19.Controls.Add(this.radioButton76);
             this.tabPage19.Controls.Add(this.label20);
             this.tabPage19.Location = new System.Drawing.Point(4, 22);
@@ -1612,70 +1761,78 @@ namespace StudentChoiceProject
             this.tabPage19.Text = "19";
             this.tabPage19.UseVisualStyleBackColor = true;
             // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(94, 62);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(368, 62);
+            this.label40.TabIndex = 15;
+            this.label40.Text = "What country has the world\'s \r\nlargest bowling alley?";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // radioButton73
             // 
             this.radioButton73.AutoSize = true;
             this.radioButton73.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton73.Location = new System.Drawing.Point(204, 239);
+            this.radioButton73.Location = new System.Drawing.Point(193, 280);
             this.radioButton73.Name = "radioButton73";
-            this.radioButton73.Size = new System.Drawing.Size(148, 40);
-            this.radioButton73.TabIndex = 8;
-            this.radioButton73.TabStop = true;
-            this.radioButton73.Text = "radioButton73";
+            this.radioButton73.Size = new System.Drawing.Size(128, 40);
+            this.radioButton73.TabIndex = 14;
+            this.radioButton73.Text = "Switzerland";
             this.radioButton73.UseVisualStyleBackColor = true;
             // 
             // radioButton74
             // 
             this.radioButton74.AutoSize = true;
             this.radioButton74.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton74.Location = new System.Drawing.Point(204, 193);
+            this.radioButton74.Location = new System.Drawing.Point(193, 234);
             this.radioButton74.Name = "radioButton74";
-            this.radioButton74.Size = new System.Drawing.Size(147, 40);
-            this.radioButton74.TabIndex = 7;
-            this.radioButton74.TabStop = true;
-            this.radioButton74.Text = "radioButton74";
+            this.radioButton74.Size = new System.Drawing.Size(132, 40);
+            this.radioButton74.TabIndex = 13;
+            this.radioButton74.Text = "South Africa";
             this.radioButton74.UseVisualStyleBackColor = true;
             // 
-            // radioButton75
+            // rbQ19answer
             // 
-            this.radioButton75.AutoSize = true;
-            this.radioButton75.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton75.Location = new System.Drawing.Point(204, 147);
-            this.radioButton75.Name = "radioButton75";
-            this.radioButton75.Size = new System.Drawing.Size(148, 40);
-            this.radioButton75.TabIndex = 6;
-            this.radioButton75.TabStop = true;
-            this.radioButton75.Text = "radioButton75";
-            this.radioButton75.UseVisualStyleBackColor = true;
+            this.rbQ19answer.AutoSize = true;
+            this.rbQ19answer.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbQ19answer.Location = new System.Drawing.Point(193, 188);
+            this.rbQ19answer.Name = "rbQ19answer";
+            this.rbQ19answer.Size = new System.Drawing.Size(79, 40);
+            this.rbQ19answer.TabIndex = 12;
+            this.rbQ19answer.Text = "Japan";
+            this.rbQ19answer.UseVisualStyleBackColor = true;
             // 
             // radioButton76
             // 
             this.radioButton76.AutoSize = true;
             this.radioButton76.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton76.Location = new System.Drawing.Point(204, 101);
+            this.radioButton76.Location = new System.Drawing.Point(193, 142);
             this.radioButton76.Name = "radioButton76";
-            this.radioButton76.Size = new System.Drawing.Size(148, 40);
-            this.radioButton76.TabIndex = 5;
-            this.radioButton76.TabStop = true;
-            this.radioButton76.Text = "radioButton76";
+            this.radioButton76.Size = new System.Drawing.Size(81, 40);
+            this.radioButton76.TabIndex = 11;
+            this.radioButton76.Text = "Brazil";
             this.radioButton76.UseVisualStyleBackColor = true;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Century", 25F);
-            this.label20.Location = new System.Drawing.Point(182, 0);
+            this.label20.Location = new System.Drawing.Point(172, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(206, 40);
-            this.label20.TabIndex = 1;
+            this.label20.TabIndex = 10;
             this.label20.Text = "Question 19";
             // 
             // tabPage20
             // 
+            this.tabPage20.Controls.Add(this.label41);
             this.tabPage20.Controls.Add(this.radioButton77);
             this.tabPage20.Controls.Add(this.radioButton78);
-            this.tabPage20.Controls.Add(this.radioButton79);
-            this.tabPage20.Controls.Add(this.radioButton80);
+            this.tabPage20.Controls.Add(this.Nix);
+            this.tabPage20.Controls.Add(this.rbQ20answer);
             this.tabPage20.Controls.Add(this.label21);
             this.tabPage20.Location = new System.Drawing.Point(4, 22);
             this.tabPage20.Name = "tabPage20";
@@ -1684,195 +1841,172 @@ namespace StudentChoiceProject
             this.tabPage20.Text = "20";
             this.tabPage20.UseVisualStyleBackColor = true;
             // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(48, 83);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(459, 31);
+            this.label41.TabIndex = 15;
+            this.label41.Text = "What is Pluto\'s largest moon named?";
+            // 
             // radioButton77
             // 
             this.radioButton77.AutoSize = true;
             this.radioButton77.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton77.Location = new System.Drawing.Point(204, 239);
+            this.radioButton77.Location = new System.Drawing.Point(221, 281);
             this.radioButton77.Name = "radioButton77";
-            this.radioButton77.Size = new System.Drawing.Size(147, 40);
-            this.radioButton77.TabIndex = 8;
+            this.radioButton77.Size = new System.Drawing.Size(91, 40);
+            this.radioButton77.TabIndex = 14;
             this.radioButton77.TabStop = true;
-            this.radioButton77.Text = "radioButton77";
+            this.radioButton77.Text = "Rotund";
             this.radioButton77.UseVisualStyleBackColor = true;
             // 
             // radioButton78
             // 
             this.radioButton78.AutoSize = true;
             this.radioButton78.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton78.Location = new System.Drawing.Point(204, 193);
+            this.radioButton78.Location = new System.Drawing.Point(222, 235);
             this.radioButton78.Name = "radioButton78";
-            this.radioButton78.Size = new System.Drawing.Size(148, 40);
-            this.radioButton78.TabIndex = 7;
+            this.radioButton78.Size = new System.Drawing.Size(81, 40);
+            this.radioButton78.TabIndex = 13;
             this.radioButton78.TabStop = true;
-            this.radioButton78.Text = "radioButton78";
+            this.radioButton78.Text = "Hydra";
             this.radioButton78.UseVisualStyleBackColor = true;
             // 
-            // radioButton79
+            // Nix
             // 
-            this.radioButton79.AutoSize = true;
-            this.radioButton79.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton79.Location = new System.Drawing.Point(204, 147);
-            this.radioButton79.Name = "radioButton79";
-            this.radioButton79.Size = new System.Drawing.Size(148, 40);
-            this.radioButton79.TabIndex = 6;
-            this.radioButton79.TabStop = true;
-            this.radioButton79.Text = "radioButton79";
-            this.radioButton79.UseVisualStyleBackColor = true;
+            this.Nix.AutoSize = true;
+            this.Nix.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nix.Location = new System.Drawing.Point(222, 189);
+            this.Nix.Name = "Nix";
+            this.Nix.Size = new System.Drawing.Size(61, 40);
+            this.Nix.TabIndex = 12;
+            this.Nix.TabStop = true;
+            this.Nix.Text = "Nix";
+            this.Nix.UseVisualStyleBackColor = true;
             // 
-            // radioButton80
+            // rbQ20answer
             // 
-            this.radioButton80.AutoSize = true;
-            this.radioButton80.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton80.Location = new System.Drawing.Point(204, 101);
-            this.radioButton80.Name = "radioButton80";
-            this.radioButton80.Size = new System.Drawing.Size(149, 40);
-            this.radioButton80.TabIndex = 5;
-            this.radioButton80.TabStop = true;
-            this.radioButton80.Text = "radioButton80";
-            this.radioButton80.UseVisualStyleBackColor = true;
+            this.rbQ20answer.AutoSize = true;
+            this.rbQ20answer.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbQ20answer.Location = new System.Drawing.Point(222, 143);
+            this.rbQ20answer.Name = "rbQ20answer";
+            this.rbQ20answer.Size = new System.Drawing.Size(90, 40);
+            this.rbQ20answer.TabIndex = 11;
+            this.rbQ20answer.TabStop = true;
+            this.rbQ20answer.Text = "Charon";
+            this.rbQ20answer.UseVisualStyleBackColor = true;
             // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Century", 25F);
-            this.label21.Location = new System.Drawing.Point(179, 0);
+            this.label21.Location = new System.Drawing.Point(174, 1);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(206, 40);
-            this.label21.TabIndex = 1;
+            this.label21.TabIndex = 10;
             this.label21.Text = "Question 20";
             // 
-            // label27
+            // btnSubmit
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(11, 71);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(540, 31);
-            this.label27.TabIndex = 9;
-            this.label27.Text = "How many neck bones does a giraffe have?";
+            this.btnSubmit.BackColor = System.Drawing.SystemColors.Control;
+            this.btnSubmit.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(12, 504);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 38);
+            this.btnSubmit.TabIndex = 2;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label28
+            // txtScore
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(31, 73);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(488, 31);
-            this.label28.TabIndex = 9;
-            this.label28.Text = "What colors are on the Norwegian flag?";
+            this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtScore.Location = new System.Drawing.Point(472, 509);
+            this.txtScore.Name = "txtScore";
+            this.txtScore.ReadOnly = true;
+            this.txtScore.Size = new System.Drawing.Size(85, 38);
+            this.txtScore.TabIndex = 3;
             // 
-            // label29
+            // txtAnswers
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(101, 60);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(399, 62);
-            this.label29.TabIndex = 9;
-            this.label29.Text = "When was the first model of the \r\niPhone released?";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label29.Click += new System.EventHandler(this.label29_Click);
+            this.txtAnswers.Location = new System.Drawing.Point(12, 548);
+            this.txtAnswers.Multiline = true;
+            this.txtAnswers.Name = "txtAnswers";
+            this.txtAnswers.ReadOnly = true;
+            this.txtAnswers.Size = new System.Drawing.Size(227, 144);
+            this.txtAnswers.TabIndex = 4;
+            this.txtAnswers.Text = resources.GetString("txtAnswers.Text");
+            this.txtAnswers.Visible = false;
             // 
-            // label30
+            // txtName
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(53, 88);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(452, 31);
-            this.label30.TabIndex = 9;
-            this.label30.Text = "What is the capital city of Paraguay?";
+            this.txtName.Enabled = false;
+            this.txtName.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(457, 569);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 29);
+            this.txtName.TabIndex = 5;
             // 
-            // label31
+            // label42
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(23, 73);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(515, 31);
-            this.label31.TabIndex = 9;
-            this.label31.Text = "What Land Animal Has the Largest Eyes?";
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(405, 517);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(67, 25);
+            this.label42.TabIndex = 6;
+            this.label42.Text = "Score:";
             // 
-            // label32
+            // label43
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(38, 79);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(495, 31);
-            this.label32.TabIndex = 9;
-            this.label32.Text = "The Treaty of Ghent Ended Which War?";
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(401, 572);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(56, 21);
+            this.label43.TabIndex = 7;
+            this.label43.Text = "Name";
             // 
-            // label33
+            // btnEname
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(20, 55);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(531, 62);
-            this.label33.TabIndex = 9;
-            this.label33.Text = "In 1917, Finland declared its independence\r\nfrom which country?";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEname.BackColor = System.Drawing.SystemColors.Control;
+            this.btnEname.Enabled = false;
+            this.btnEname.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEname.Location = new System.Drawing.Point(472, 604);
+            this.btnEname.Name = "btnEname";
+            this.btnEname.Size = new System.Drawing.Size(75, 38);
+            this.btnEname.TabIndex = 8;
+            this.btnEname.Text = "Enter";
+            this.btnEname.UseVisualStyleBackColor = false;
             // 
-            // label34
+            // lblAnswers
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(28, 56);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(501, 62);
-            this.label34.TabIndex = 9;
-            this.label34.Text = "In Olympic archery, what is the distance \r\nbetween the target from the archer?";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(90, 63);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(396, 62);
-            this.label35.TabIndex = 9;
-            this.label35.Text = "In the game of pool, what is the \r\nstandard color for the 1 ball?";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(90, 77);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(425, 31);
-            this.label36.TabIndex = 9;
-            this.label36.Text = "What does a funambulist walk on?";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(106, 56);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(394, 31);
-            this.label37.TabIndex = 9;
-            this.label37.Text = "What is cynophobia the fear of?";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(40, 74);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(486, 31);
-            this.label38.TabIndex = 9;
-            this.label38.Text = "In what year was McDonald\'s founded?";
+            this.lblAnswers.AutoSize = true;
+            this.lblAnswers.Font = new System.Drawing.Font("Nirmala UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswers.Location = new System.Drawing.Point(116, 510);
+            this.lblAnswers.Name = "lblAnswers";
+            this.lblAnswers.Size = new System.Drawing.Size(124, 37);
+            this.lblAnswers.TabIndex = 9;
+            this.lblAnswers.Text = "Answers";
+            this.lblAnswers.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(569, 534);
+            this.ClientSize = new System.Drawing.Size(569, 704);
+            this.Controls.Add(this.lblAnswers);
+            this.Controls.Add(this.btnEname);
+            this.Controls.Add(this.label43);
+            this.Controls.Add(this.label42);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtAnswers);
+            this.Controls.Add(this.txtScore);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.QuizTabs);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -1927,7 +2061,6 @@ namespace StudentChoiceProject
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl QuizTabs;
-        private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label3;
@@ -1964,9 +2097,6 @@ namespace StudentChoiceProject
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
@@ -2036,18 +2166,6 @@ namespace StudentChoiceProject
         private System.Windows.Forms.RadioButton radioButton66;
         private System.Windows.Forms.RadioButton radioButton67;
         private System.Windows.Forms.RadioButton radioButton68;
-        private System.Windows.Forms.RadioButton radioButton69;
-        private System.Windows.Forms.RadioButton radioButton70;
-        private System.Windows.Forms.RadioButton radioButton71;
-        private System.Windows.Forms.RadioButton radioButton72;
-        private System.Windows.Forms.RadioButton radioButton73;
-        private System.Windows.Forms.RadioButton radioButton74;
-        private System.Windows.Forms.RadioButton radioButton75;
-        private System.Windows.Forms.RadioButton radioButton76;
-        private System.Windows.Forms.RadioButton radioButton77;
-        private System.Windows.Forms.RadioButton radioButton78;
-        private System.Windows.Forms.RadioButton radioButton79;
-        private System.Windows.Forms.RadioButton radioButton80;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
@@ -2064,6 +2182,33 @@ namespace StudentChoiceProject
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.RadioButton radioButton69;
+        private System.Windows.Forms.RadioButton rbQ18answer;
+        private System.Windows.Forms.RadioButton radioButton71;
+        private System.Windows.Forms.RadioButton radioButton72;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.RadioButton radioButton73;
+        private System.Windows.Forms.RadioButton radioButton74;
+        private System.Windows.Forms.RadioButton rbQ19answer;
+        private System.Windows.Forms.RadioButton radioButton76;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.RadioButton radioButton77;
+        private System.Windows.Forms.RadioButton radioButton78;
+        private System.Windows.Forms.RadioButton Nix;
+        private System.Windows.Forms.RadioButton rbQ20answer;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txtScore;
+        private System.Windows.Forms.TextBox txtAnswers;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Button btnEname;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Label lblAnswers;
     }
 }
 
