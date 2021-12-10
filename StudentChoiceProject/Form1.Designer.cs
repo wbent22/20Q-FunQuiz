@@ -180,6 +180,7 @@ namespace StudentChoiceProject
             this.label43 = new System.Windows.Forms.Label();
             this.btnEname = new System.Windows.Forms.Button();
             this.lblAnswers = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.QuizTabs.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -1993,12 +1994,27 @@ namespace StudentChoiceProject
             this.lblAnswers.Text = "Answers";
             this.lblAnswers.Visible = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Yellow;
+            this.button1.Enabled = false;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.button1.FlatAppearance.BorderSize = 10;
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(271, 644);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 38);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Leaderboard";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(569, 704);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblAnswers);
             this.Controls.Add(this.btnEname);
             this.Controls.Add(this.label43);
@@ -2209,6 +2225,7 @@ namespace StudentChoiceProject
         private System.Windows.Forms.Button btnEname;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label lblAnswers;
+        private System.Windows.Forms.Button button1;
     }
 }
 
