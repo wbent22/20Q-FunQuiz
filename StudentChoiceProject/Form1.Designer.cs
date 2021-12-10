@@ -1266,18 +1266,19 @@ namespace StudentChoiceProject
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(28, 56);
+            this.label34.Location = new System.Drawing.Point(33, 46);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(501, 62);
+            this.label34.Size = new System.Drawing.Size(508, 93);
             this.label34.TabIndex = 9;
-            this.label34.Text = "In Olympic archery, what is the distance \r\nbetween the target from the archer?";
+            this.label34.Text = "In Olympic archery, what is the distance \r\nbetween the target from the archer whe" +
+    "n \r\nshooting a recurve bow?";
             this.label34.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // radioButton49
             // 
             this.radioButton49.AutoSize = true;
             this.radioButton49.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton49.Location = new System.Drawing.Point(204, 280);
+            this.radioButton49.Location = new System.Drawing.Point(203, 304);
             this.radioButton49.Name = "radioButton49";
             this.radioButton49.Size = new System.Drawing.Size(116, 40);
             this.radioButton49.TabIndex = 8;
@@ -1289,7 +1290,7 @@ namespace StudentChoiceProject
             // 
             this.rbQ13answer.AutoSize = true;
             this.rbQ13answer.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbQ13answer.Location = new System.Drawing.Point(204, 234);
+            this.rbQ13answer.Location = new System.Drawing.Point(203, 258);
             this.rbQ13answer.Name = "rbQ13answer";
             this.rbQ13answer.Size = new System.Drawing.Size(111, 40);
             this.rbQ13answer.TabIndex = 7;
@@ -1301,7 +1302,7 @@ namespace StudentChoiceProject
             // 
             this.radioButton51.AutoSize = true;
             this.radioButton51.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton51.Location = new System.Drawing.Point(204, 188);
+            this.radioButton51.Location = new System.Drawing.Point(203, 212);
             this.radioButton51.Name = "radioButton51";
             this.radioButton51.Size = new System.Drawing.Size(112, 40);
             this.radioButton51.TabIndex = 6;
@@ -1313,7 +1314,7 @@ namespace StudentChoiceProject
             // 
             this.radioButton52.AutoSize = true;
             this.radioButton52.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton52.Location = new System.Drawing.Point(204, 142);
+            this.radioButton52.Location = new System.Drawing.Point(203, 166);
             this.radioButton52.Name = "radioButton52";
             this.radioButton52.Size = new System.Drawing.Size(119, 40);
             this.radioButton52.TabIndex = 5;
@@ -1997,9 +1998,8 @@ namespace StudentChoiceProject
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Yellow;
-            this.button1.Enabled = false;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
-            this.button1.FlatAppearance.BorderSize = 10;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(271, 644);
             this.button1.Name = "button1";
