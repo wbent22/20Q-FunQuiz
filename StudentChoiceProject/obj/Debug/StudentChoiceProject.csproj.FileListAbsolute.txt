@@ -19,3 +19,8 @@ C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoicePro
 C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\StudentChoiceProject.exe
 C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\StudentChoiceProject.pdb
 C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\obj\Debug\StudentChoiceProject.Leaderboard.resources
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\Players.db
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\Dapper.dll
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\Dapper.xml
+C:\Users\Administrator\Documents\WB Python-Projects\20Q-FunQuiz\StudentChoiceProject\bin\Debug\System.Data.SQLite.xml

@@ -8,7 +8,7 @@ namespace StudentChoiceProject
 {
     class PlayerModel
     {
-        public int Score { get; set; }
+        public string Score { get; set; }
         public string Name { get; set; }
     }
 }

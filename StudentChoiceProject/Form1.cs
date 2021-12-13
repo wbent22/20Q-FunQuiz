@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Dapper;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -153,6 +155,28 @@ namespace StudentChoiceProject
 
         }
 
-        
+        private void btnEname_Click(object sender, EventArgs e)
+        {
+            PlayerModel p = new PlayerModel();
+            p.Score = txtScore.Text;
+            p.Name = txtName.Text;
+            AddPlayer(p);
+            btnEname.Enabled = false;
+        }
+
+        private static void AddPlayer(PlayerModel player)
+        {
+            using (IDbConnection cnn = new SQLiteConnection(Leaderboard.LoadConnectionString()))
+            {
+                cnn.Execute("insert into Leaderboard (Score, Name) values (@Score, @Name)", player);
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Leaderboard lb = new Leaderboard();
+            this.Hide();
+            lb.Show();
+        }
     }
 }

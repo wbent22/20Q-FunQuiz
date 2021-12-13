@@ -1983,6 +1983,7 @@ namespace StudentChoiceProject
             this.btnEname.TabIndex = 8;
             this.btnEname.Text = "Enter";
             this.btnEname.UseVisualStyleBackColor = false;
+            this.btnEname.Click += new System.EventHandler(this.btnEname_Click);
             // 
             // lblAnswers
             // 
@@ -2007,6 +2008,7 @@ namespace StudentChoiceProject
             this.button1.TabIndex = 10;
             this.button1.Text = "Leaderboard";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
