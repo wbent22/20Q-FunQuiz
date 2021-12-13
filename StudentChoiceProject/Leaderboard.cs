@@ -44,7 +44,12 @@ namespace StudentChoiceProject
             dataGridView1.DataMember = "Leaderboard";
         }
 
-        private void btnLoad_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void Leaderboard_Load(object sender, EventArgs e)
         {
             DataToView();
         }

@@ -181,6 +181,7 @@ namespace StudentChoiceProject
             this.btnEname = new System.Windows.Forms.Button();
             this.lblAnswers = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.QuizTabs.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -208,7 +209,7 @@ namespace StudentChoiceProject
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Haettenschweiler", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 9);
+            this.label1.Location = new System.Drawing.Point(51, -2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(453, 70);
             this.label1.TabIndex = 0;
@@ -236,10 +237,10 @@ namespace StudentChoiceProject
             this.QuizTabs.Controls.Add(this.tabPage18);
             this.QuizTabs.Controls.Add(this.tabPage19);
             this.QuizTabs.Controls.Add(this.tabPage20);
-            this.QuizTabs.Location = new System.Drawing.Point(2, 97);
+            this.QuizTabs.Location = new System.Drawing.Point(3, 71);
             this.QuizTabs.Name = "QuizTabs";
             this.QuizTabs.SelectedIndex = 0;
-            this.QuizTabs.Size = new System.Drawing.Size(565, 406);
+            this.QuizTabs.Size = new System.Drawing.Size(565, 379);
             this.QuizTabs.TabIndex = 1;
             // 
             // tabPage1
@@ -253,7 +254,7 @@ namespace StudentChoiceProject
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(557, 380);
+            this.tabPage1.Size = new System.Drawing.Size(557, 353);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -337,7 +338,7 @@ namespace StudentChoiceProject
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(557, 380);
+            this.tabPage2.Size = new System.Drawing.Size(557, 353);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -421,7 +422,7 @@ namespace StudentChoiceProject
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(557, 380);
+            this.tabPage3.Size = new System.Drawing.Size(557, 353);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -506,7 +507,7 @@ namespace StudentChoiceProject
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(557, 380);
+            this.tabPage4.Size = new System.Drawing.Size(557, 353);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -590,7 +591,7 @@ namespace StudentChoiceProject
             this.tabPage5.Controls.Add(this.label6);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(557, 380);
+            this.tabPage5.Size = new System.Drawing.Size(557, 353);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "5";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -673,7 +674,7 @@ namespace StudentChoiceProject
             this.tabPage6.Controls.Add(this.label7);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(557, 380);
+            this.tabPage6.Size = new System.Drawing.Size(557, 353);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "6";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -756,7 +757,7 @@ namespace StudentChoiceProject
             this.tabPage7.Controls.Add(this.label8);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(557, 380);
+            this.tabPage7.Size = new System.Drawing.Size(557, 353);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "7";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -839,7 +840,7 @@ namespace StudentChoiceProject
             this.tabPage8.Controls.Add(this.label9);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(557, 380);
+            this.tabPage8.Size = new System.Drawing.Size(557, 353);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "8";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -924,7 +925,7 @@ namespace StudentChoiceProject
             this.tabPage9.Controls.Add(this.label10);
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(557, 380);
+            this.tabPage9.Size = new System.Drawing.Size(557, 353);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "9";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -1007,7 +1008,7 @@ namespace StudentChoiceProject
             this.tabPage10.Controls.Add(this.label11);
             this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(557, 380);
+            this.tabPage10.Size = new System.Drawing.Size(557, 353);
             this.tabPage10.TabIndex = 9;
             this.tabPage10.Text = "10";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -1090,7 +1091,7 @@ namespace StudentChoiceProject
             this.tabPage11.Controls.Add(this.label12);
             this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(557, 380);
+            this.tabPage11.Size = new System.Drawing.Size(557, 353);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "11";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -1173,7 +1174,7 @@ namespace StudentChoiceProject
             this.tabPage12.Controls.Add(this.label13);
             this.tabPage12.Location = new System.Drawing.Point(4, 22);
             this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(557, 380);
+            this.tabPage12.Size = new System.Drawing.Size(557, 353);
             this.tabPage12.TabIndex = 11;
             this.tabPage12.Text = "12";
             this.tabPage12.UseVisualStyleBackColor = true;
@@ -1257,7 +1258,7 @@ namespace StudentChoiceProject
             this.tabPage13.Controls.Add(this.label14);
             this.tabPage13.Location = new System.Drawing.Point(4, 22);
             this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(557, 380);
+            this.tabPage13.Size = new System.Drawing.Size(557, 353);
             this.tabPage13.TabIndex = 12;
             this.tabPage13.Text = "13";
             this.tabPage13.UseVisualStyleBackColor = true;
@@ -1342,7 +1343,7 @@ namespace StudentChoiceProject
             this.tabPage14.Controls.Add(this.label15);
             this.tabPage14.Location = new System.Drawing.Point(4, 22);
             this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(557, 380);
+            this.tabPage14.Size = new System.Drawing.Size(557, 353);
             this.tabPage14.TabIndex = 13;
             this.tabPage14.Text = "14";
             this.tabPage14.UseVisualStyleBackColor = true;
@@ -1426,7 +1427,7 @@ namespace StudentChoiceProject
             this.tabPage15.Controls.Add(this.label16);
             this.tabPage15.Location = new System.Drawing.Point(4, 22);
             this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Size = new System.Drawing.Size(557, 380);
+            this.tabPage15.Size = new System.Drawing.Size(557, 353);
             this.tabPage15.TabIndex = 14;
             this.tabPage15.Text = "15";
             this.tabPage15.UseVisualStyleBackColor = true;
@@ -1509,7 +1510,7 @@ namespace StudentChoiceProject
             this.tabPage16.Controls.Add(this.label17);
             this.tabPage16.Location = new System.Drawing.Point(4, 22);
             this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Size = new System.Drawing.Size(557, 380);
+            this.tabPage16.Size = new System.Drawing.Size(557, 353);
             this.tabPage16.TabIndex = 15;
             this.tabPage16.Text = "16";
             this.tabPage16.UseVisualStyleBackColor = true;
@@ -1592,7 +1593,7 @@ namespace StudentChoiceProject
             this.tabPage17.Controls.Add(this.label18);
             this.tabPage17.Location = new System.Drawing.Point(4, 22);
             this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Size = new System.Drawing.Size(557, 380);
+            this.tabPage17.Size = new System.Drawing.Size(557, 353);
             this.tabPage17.TabIndex = 16;
             this.tabPage17.Text = "17";
             this.tabPage17.UseVisualStyleBackColor = true;
@@ -1675,7 +1676,7 @@ namespace StudentChoiceProject
             this.tabPage18.Controls.Add(this.label19);
             this.tabPage18.Location = new System.Drawing.Point(4, 22);
             this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Size = new System.Drawing.Size(557, 380);
+            this.tabPage18.Size = new System.Drawing.Size(557, 353);
             this.tabPage18.TabIndex = 17;
             this.tabPage18.Text = "18";
             this.tabPage18.UseVisualStyleBackColor = true;
@@ -1758,7 +1759,7 @@ namespace StudentChoiceProject
             this.tabPage19.Controls.Add(this.label20);
             this.tabPage19.Location = new System.Drawing.Point(4, 22);
             this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Size = new System.Drawing.Size(557, 380);
+            this.tabPage19.Size = new System.Drawing.Size(557, 353);
             this.tabPage19.TabIndex = 18;
             this.tabPage19.Text = "19";
             this.tabPage19.UseVisualStyleBackColor = true;
@@ -1838,7 +1839,7 @@ namespace StudentChoiceProject
             this.tabPage20.Controls.Add(this.label21);
             this.tabPage20.Location = new System.Drawing.Point(4, 22);
             this.tabPage20.Name = "tabPage20";
-            this.tabPage20.Size = new System.Drawing.Size(557, 380);
+            this.tabPage20.Size = new System.Drawing.Size(557, 353);
             this.tabPage20.TabIndex = 19;
             this.tabPage20.Text = "20";
             this.tabPage20.UseVisualStyleBackColor = true;
@@ -1915,7 +1916,7 @@ namespace StudentChoiceProject
             // 
             this.btnSubmit.BackColor = System.Drawing.SystemColors.Control;
             this.btnSubmit.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(12, 504);
+            this.btnSubmit.Location = new System.Drawing.Point(12, 451);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(75, 38);
             this.btnSubmit.TabIndex = 2;
@@ -1926,7 +1927,7 @@ namespace StudentChoiceProject
             // txtScore
             // 
             this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtScore.Location = new System.Drawing.Point(472, 509);
+            this.txtScore.Location = new System.Drawing.Point(472, 456);
             this.txtScore.Name = "txtScore";
             this.txtScore.ReadOnly = true;
             this.txtScore.Size = new System.Drawing.Size(85, 38);
@@ -1934,7 +1935,7 @@ namespace StudentChoiceProject
             // 
             // txtAnswers
             // 
-            this.txtAnswers.Location = new System.Drawing.Point(12, 548);
+            this.txtAnswers.Location = new System.Drawing.Point(12, 495);
             this.txtAnswers.Multiline = true;
             this.txtAnswers.Name = "txtAnswers";
             this.txtAnswers.ReadOnly = true;
@@ -1947,7 +1948,7 @@ namespace StudentChoiceProject
             // 
             this.txtName.Enabled = false;
             this.txtName.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(457, 569);
+            this.txtName.Location = new System.Drawing.Point(457, 516);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 29);
             this.txtName.TabIndex = 5;
@@ -1956,7 +1957,7 @@ namespace StudentChoiceProject
             // 
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(405, 517);
+            this.label42.Location = new System.Drawing.Point(405, 464);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(67, 25);
             this.label42.TabIndex = 6;
@@ -1966,7 +1967,7 @@ namespace StudentChoiceProject
             // 
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(401, 572);
+            this.label43.Location = new System.Drawing.Point(401, 519);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(56, 21);
             this.label43.TabIndex = 7;
@@ -1977,7 +1978,7 @@ namespace StudentChoiceProject
             this.btnEname.BackColor = System.Drawing.SystemColors.Control;
             this.btnEname.Enabled = false;
             this.btnEname.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEname.Location = new System.Drawing.Point(472, 604);
+            this.btnEname.Location = new System.Drawing.Point(472, 551);
             this.btnEname.Name = "btnEname";
             this.btnEname.Size = new System.Drawing.Size(75, 38);
             this.btnEname.TabIndex = 8;
@@ -1989,7 +1990,7 @@ namespace StudentChoiceProject
             // 
             this.lblAnswers.AutoSize = true;
             this.lblAnswers.Font = new System.Drawing.Font("Nirmala UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnswers.Location = new System.Drawing.Point(116, 510);
+            this.lblAnswers.Location = new System.Drawing.Point(116, 457);
             this.lblAnswers.Name = "lblAnswers";
             this.lblAnswers.Size = new System.Drawing.Size(124, 37);
             this.lblAnswers.TabIndex = 9;
@@ -2002,7 +2003,7 @@ namespace StudentChoiceProject
             this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(271, 644);
+            this.button1.Location = new System.Drawing.Point(271, 591);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 38);
             this.button1.TabIndex = 10;
@@ -2010,12 +2011,25 @@ namespace StudentChoiceProject
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(429, 607);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Exit";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(569, 704);
+            this.ClientSize = new System.Drawing.Size(569, 648);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblAnswers);
             this.Controls.Add(this.btnEname);
@@ -2029,6 +2043,7 @@ namespace StudentChoiceProject
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Quiz!";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.QuizTabs.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -2228,6 +2243,7 @@ namespace StudentChoiceProject
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label lblAnswers;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
