@@ -182,6 +182,7 @@ namespace StudentChoiceProject
             this.lblAnswers = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.QuizTabs.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -242,9 +243,11 @@ namespace StudentChoiceProject
             this.QuizTabs.SelectedIndex = 0;
             this.QuizTabs.Size = new System.Drawing.Size(565, 379);
             this.QuizTabs.TabIndex = 1;
+            this.QuizTabs.Visible = false;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Controls.Add(this.label22);
             this.tabPage1.Controls.Add(this.radioButton4);
             this.tabPage1.Controls.Add(this.radioButton3);
@@ -2003,7 +2006,7 @@ namespace StudentChoiceProject
             this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(271, 591);
+            this.button1.Location = new System.Drawing.Point(294, 566);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 38);
             this.button1.TabIndex = 10;
@@ -2015,13 +2018,24 @@ namespace StudentChoiceProject
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(429, 607);
+            this.button2.Location = new System.Drawing.Point(472, 606);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 11;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Javanese Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(195, 141);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(169, 61);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Start";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -2244,6 +2258,7 @@ namespace StudentChoiceProject
         private System.Windows.Forms.Label lblAnswers;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
