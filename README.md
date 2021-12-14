@@ -3,7 +3,7 @@
 
 ## Summary
 
-This is a 20 Question quiz and the questions are completely random knowledge, There will also be a leaderboard to view other players names and scores.
+This is a 20 Question quiz and the questions are completely random knowledge. There is also be a leaderboard to view other players names and scores.
 
 ## Usage
 
