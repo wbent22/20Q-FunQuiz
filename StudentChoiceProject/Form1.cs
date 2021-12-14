@@ -189,10 +189,5 @@ namespace StudentChoiceProject
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            QuizTabs.Visible = true;
-            button3.Visible = false;
-        }
     }
 }
