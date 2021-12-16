@@ -1919,9 +1919,9 @@ namespace StudentChoiceProject
             this.btnSubmit.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.Location = new System.Drawing.Point(12, 451);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(75, 38);
+            this.btnSubmit.Size = new System.Drawing.Size(78, 38);
             this.btnSubmit.TabIndex = 2;
-            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.Text = "Finished";
             this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.button1_Click);
             // 

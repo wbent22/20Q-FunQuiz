@@ -175,8 +175,9 @@ namespace StudentChoiceProject
         private void button1_Click_1(object sender, EventArgs e)
         {
             Leaderboard lb = new Leaderboard();
-            this.Hide();
+            
             lb.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
